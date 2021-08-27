@@ -1,15 +1,23 @@
 {
-  "name": "invictus_website",
+  "name": "invictus_users_server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "DeepBlueS3a",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.11.1",
+    "google-spreadsheet": "^2.0.6",
     "googleapis": "^39.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
